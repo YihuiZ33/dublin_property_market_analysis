@@ -1,6 +1,7 @@
 ## Analysis of Dublin House Prices Based on Crime Rates Social Housing Construction and School Distribution
 
 The datasets used in this project are housing cost, crime dataset, social house construction and schools in Dublin. Below are the links of the data
+
 Yihui Zhang
 •	JSON file: Dublin residential property price dataset
 https://data.smartdublin.ie/dataset/dublin-residential-property-price-register/resource/2d81e403-5cb7-4b1c-b296-2b21b95df5c8
@@ -21,4 +22,5 @@ https://data.cso.ie/table/CJQ06
 
 
 The CSV files are stored in postgres server and JSON files are loaded into mongodb cluster. Python is used for preprocessing and data cleaning. The cleaned data is stored back into the postgres server.
+
 The resultant data is used for visualization using matplotlib and seaborn python libraries.
